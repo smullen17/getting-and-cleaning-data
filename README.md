@@ -17,6 +17,7 @@ Objective:
 use the files to create a tidy data set containing the observed activity metrics, sujectID, and activityID and activity type.
 
 
+Get data into working directory:
 files were provided via a zipped url
 first step was to download the folders and files underneath UCI HAR Dataset into  Rs working directory. In Rs working directory you will need:
   Folder called test
@@ -34,10 +35,8 @@ From the train folder, download the following files into R:
 X_train
 y_train
 
-Download the following files into R:
-activities_labels.txt
-features.txt
-features_info.txt
+Download activities_labels.txt, features.txt, features_info.txt into R:
+
 
 Process:
 Through the use of the dim function, you see the train files and test files can be combined via  cbind
