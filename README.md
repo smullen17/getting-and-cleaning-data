@@ -50,3 +50,17 @@ The result is tidy data set1
 Aggregeated tidy data set1 to take only the mean for each metric for each subject and activitiy type
 The result is tidy data set2
 
+Description of the study: who did it, why they did it, how they did it.
+Data Source:
+Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto. 
+Smartlab - Non Linear Complex Systems Laboratory 
+DITEN - UniversitÃ  degli Studi di Genova, Genoa I-16145, Italy. 
+
+Description:
+Experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. 561 metrics were gathered for each activity.
+The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data sets
+561 metrics were observed 
+70% of the observations went into the training set (x_train, y_train)  which was 7,352 observations
+30% went into the test set (x_test, y_test) which was 2,947 observations
+
+Each observation had both an activityId as well as a subjectID. ActivityID was saved
