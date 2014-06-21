@@ -17,13 +17,10 @@ In Rs working directory you will need:
   File called features_info.txt
   File called README.txt
 
-From the test folder, download the following files into R:
-X_test
-y_test
+From the test folder, download the following files into R: X_test and y_test
 
-From the train folder, download the following files into R:
-X_train
-y_train
+From the train folder, download the following files into R: X_train and y_train
+
 Download activities_labels.txt, features.txt, features_info.txt into R:
 
  
